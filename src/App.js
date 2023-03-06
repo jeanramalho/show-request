@@ -1,9 +1,22 @@
-import React from "react"
-
+import React from "react";
+import GlobalStyle from "./styles/global";
+import Router from "./components/Router";
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
+
   return (
-  <h1>Olá Mundo</h1>
+    
+
+     <ApolloProvider client={client}>
+        <BrowserRouter>
+        <Router />   
+        <GlobalStyle />  
+       </BrowserRouter>          
+    </ ApolloProvider>
+    
+        
+  
   );
 }
 
