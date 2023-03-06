@@ -1,6 +1,6 @@
 import React from "react";
 import GlobalStyle from "./Styles/global";
-import Router from "./components/Router";
+import Router from "./Components/Router";
 import { BrowserRouter } from 'react-router-dom'
 
 function App() {
@@ -8,12 +8,12 @@ function App() {
   return (
     
 
-     <ApolloProvider client={client}>
+
         <BrowserRouter>
         <Router />   
         <GlobalStyle />  
        </BrowserRouter>          
-    </ ApolloProvider>
+
     
         
   
