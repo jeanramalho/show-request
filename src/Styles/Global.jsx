@@ -17,8 +17,8 @@ html, body, #root {
 
 body {
   font: 14px 'Roboto', sans-serif;
-  background: #222;
-  color: #fff;
+  background: #fff;
+  color: black;
   -webkit-font-smoothing: antialiased !important;
 }
 
