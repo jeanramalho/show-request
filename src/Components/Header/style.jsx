@@ -16,8 +16,7 @@ export const Container = styled.div`
        }
 
     .show-title {
-        font-weight: 300;
-        font-size: 20pt;
+        font-weight: 400;
     }
 
 `;
