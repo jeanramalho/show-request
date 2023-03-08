@@ -1,7 +1,14 @@
 import React from 'react'
+import { Container } from './style'
+import { Link } from 'react-router-dom';
 
-export default function Menu() {
+
+function Menu() {
   return (
-    <div>index</div>
-  )
+    <Container>
+
+    </Container>
+  );
 }
+
+export default Menu;
