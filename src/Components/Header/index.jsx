@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <Container>
       <Logo />
-      <Link to="/" className='link'><h1>Show Request</h1></Link>
+      <Link to="/" className='link'><h1><Span>Show</Span> Request</h1></Link>
     </Container>
   )
 }
