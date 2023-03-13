@@ -8,6 +8,7 @@ export const Container = styled.div`
     color: #FFF;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     text-decoration: none !important;
 
     .link {
