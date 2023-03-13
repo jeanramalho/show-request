@@ -15,4 +15,8 @@ export const Container = styled.div`
         color: #fff;
        }
 
+    .show-title {
+        font-weight: 400;
+    }
+
 `;
