@@ -9,7 +9,7 @@ export default function Header() {
       <Logo />
       <Link to="/" className='link'>
         <h1>Show Request</h1>
-        <ul>
+        <ul className='menuHeader'>
           <Link><li>Onsite</li></Link>
           <Link><li>Search</li></Link>
           <Link><li>Hotsite</li></Link>
