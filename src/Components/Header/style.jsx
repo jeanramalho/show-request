@@ -8,7 +8,6 @@ export const Container = styled.div`
     color: #FFF;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     text-decoration: none !important;
 
     .link {
@@ -24,7 +23,7 @@ export const Container = styled.div`
         display: flex;
         color: inherit !important;
         text-decorator: none !important;
-
+        width: 35%;
     }
 
 `;

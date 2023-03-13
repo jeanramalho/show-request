@@ -6,10 +6,13 @@ import Logo from '../Logo'
 export default function Header() {
   return (
     <Container>
-      <Logo />
-      <Link to="/" className='link'>
-        <h1>Show Request</h1>
+      <Container>
+        <Logo />
+        <Link to="/" className='link'>
+          <h1>Show Request</h1>
         </Link>
+      </Container>
+      
 
         <ul className='menuHeader'>
           <Link><li>Onsite</li></Link>
