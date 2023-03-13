@@ -9,7 +9,7 @@ function App() {
         <BrowserRouter>
         <Router />   
         <GlobalStyle />  
-       </BrowserRouter>            
+       </BrowserRouter>           
   
   );
 }
