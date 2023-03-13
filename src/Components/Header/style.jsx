@@ -19,4 +19,11 @@ export const Container = styled.div`
         font-weight: 400;
     }
 
+    .menuHeader {
+        display: flex;
+        color: inherit !important;
+        text-decorator: none !important;
+
+    }
+
 `;
