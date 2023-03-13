@@ -26,8 +26,10 @@ export const Container = styled.div`
         width: 35%;
     }
 
-    .menuHeader Link {
-        margin-left: 20px;
+    .itemMenu {
+        margin-left: 2rem;
+        font-size: 1.3rem;
+        color: #fff;
     }
 
 `;
