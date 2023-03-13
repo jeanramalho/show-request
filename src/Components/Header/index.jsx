@@ -15,10 +15,10 @@ export default function Header() {
       
 
         <ul className='menuHeader'>
-          <Link><li>Onsite</li></Link>
-          <Link><li>Search</li></Link>
-          <Link><li>Hotsite</li></Link>
-          <Link><li>Navigates</li></Link>
+          <Link><li className='itemMenu'>Onsite</li></Link>
+          <Link><li className='itemMenu'>Search</li></Link>
+          <Link><li className='itemMenu'>Hotsite</li></Link>
+          <Link><li className='itemMenu'>Navigates</li></Link>
         </ul>
     </Container>
   )

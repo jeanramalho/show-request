@@ -26,4 +26,8 @@ export const Container = styled.div`
         width: 35%;
     }
 
+    .menuHeader Link {
+        margin-left: 20px;
+    }
+
 `;
